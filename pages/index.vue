@@ -19,9 +19,9 @@ const page_meta = [];
 
 const data = [
   {
-    heading: "My Projects",
+    heading: "GLOBAL EXPERTISE, LOCAL SOLUTIONS",
     paragraph:
-      "Dive into the diverse array of projects I've developed, including TemplrJS, which simplifies building web and mobile apps, and other open-source endeavors. My tools are crafted to empower individual developers and enhance productivity.",
+      "Dytrone's unparalleled global network and experience uniquely position the company to provide localized solutions with a global perspective. We understand the intricacies of international markets, offering clients the advantage of tailored strategies suited to diverse business environments.",
     textColor: "text-violet-100",
     buttonText: "Explore My Work",
     bgFrom: "from-purple-500",
@@ -30,9 +30,9 @@ const data = [
     link: "/projects",
   },
   {
-    heading: "Developer Resources",
+    heading: "END-TO-END SERVICE SPECTRUM",
     paragraph:
-      "Find a comprehensive collection of guides and resources I've compiled to support your development journey. Whether you're using TemplrJS or my other tools, here's everything you need to kickstart, navigate, and excel in your projects.",
+      "From software development to lean manufacturing and client acquisition, Dytrone offers a comprehensive suite of services, ensuring that clients can address multiple facets of their business needs under one roof. This integrated approach streamlines processes, maximizes efficiency, and minimizes the complexities of dealing with multiple service providers.",
     textColor: "text-rose-100",
     buttonText: "Access Resources",
     bgFrom: "from-pink-500",
@@ -41,9 +41,9 @@ const data = [
     link: "/docs/getting-started",
   },
   {
-    heading: "API Documentation",
+    heading: "STRATEGIC PARTNERSHIPS IN EMERGING MARKETS",
     paragraph:
-      "Explore my detailed API documentation for TemplrJS and other microservices. These documents are your gateway to integrating and innovating with the functionalities I've developed, aiming for seamless collaboration and powerful project enhancements.",
+      "Dytrone's focus on the rapidly growing economies of China and India sets it apart. The company facilitates strategic partnerships with reputable firms in these regions, enabling clients to tap into lucrative markets and expand their global footprint.",
     textColor: "text-amber-100",
     buttonText: "View Documentation",
     bgFrom: "from-yellow-400",
