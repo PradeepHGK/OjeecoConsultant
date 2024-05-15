@@ -68,6 +68,10 @@
             <!-- blog grid (end)-->
           </div>
         </section>
+        <div class="flex justify-center py-20">
+        <h2 class="text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
+        <a class="inline-flex text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
+      </div>
       </main>
     </div>
   </NuxtLayout>

@@ -1,5 +1,7 @@
 <template>
+  <p class="flex justify-center font-semibold text-2xl py-10">OUR USP</p>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8">
+  
     <div v-for="(card, index) in data" :key="index" class="flex w-full relative text-white overflow-hidden rounded-3xl shadow-lg">
       <div :class="`flex w-full md:flex-col bg-gradient-to-br ${card.bgFrom} ${card.bgTo}`">
         <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8">

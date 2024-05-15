@@ -11,8 +11,11 @@
           <div class="mt-8 text-sm text-zinc-600 prose prose-zinc max-w-none dark:prose-invert dark:text-zinc-400 prose-headings:scroll-mt-28 prose-headings:font-display prose-headings:font-normal lg:prose-headings:scroll-mt-[8.5rem] prose-lead:text-zinc-500 dark:prose-lead:text-zinc-400 prose-a:font-semibold dark:prose-a:text-sky-400 prose-a:no-underline dark:prose-pre:ring-1 dark:prose-pre:ring-zinc-300/10 dark:prose-hr:border-zinc-800">
             <ContentRendererMarkdown :value="page.body" class="p-2" />
           </div>
+         
         </div>
+       
       </div>
+       
       <div class="lg:col-span-3 sticky top-28 h-96 p-2 hidden lg:block justify-self-end">
         <h1 class="text-lg font-bold mb-4">Table Of Content</h1>
         <NuxtLink v-for="link in page.toc.links" :key="link.id" :to="`#${link.id}`" class="block text-sm text-zinc-600 hover:text-primary-600 font-bold mb-3">
@@ -20,6 +23,10 @@
         </NuxtLink>
       </div>
     </div>
+     <div class="flex justify-center py-20">
+        <h2 class="text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
+        <a class="inline-flex text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
+      </div>
   </NuxtLayout>
 </template>
 

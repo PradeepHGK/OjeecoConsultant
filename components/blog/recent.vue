@@ -16,8 +16,8 @@ if (data && _.isArray(data.data)) {
 
 <template>
   <div class="pb-10">
-    <div class="px-6">
-      <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
+    <div class="px-6 py-6 flex justify-center">
+      <div class="flex flex-row items-center space-x-3 py-10 pb-3">
         <Icon name="mdi:star-three-points-outline" size="2em" class="text-black" />
         <h2 class="text-4xl font-semibold text-black">OUR SERVICES</h2>
       </div>
@@ -48,9 +48,7 @@ if (data && _.isArray(data.data)) {
           </a>
         </article>
       </template>
-      <template v-if="data?.length === 0">
-        <BlogEmpty />
-      </template>
+      
     </div>
   </div>
 </template>
