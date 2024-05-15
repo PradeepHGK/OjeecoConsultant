@@ -1,7 +1,7 @@
 <template>
   <NuxtLayout name="landing">
     <div v-if="showHeader" class="border-b mt-4 border-gray-200 pb-5 sm:flex sm:items-center sm:justify-between">
-      <h2 class="text-2xl font-semibold text-slate-600 pl-4 sm:pl-0">Resume</h2>
+      <h2 class="text-2xl font-semibold text-slate-600 pl-4 sm:pl-0">OUR SERVICES</h2>
       <div class="mt-3 flex sm:ml-4 sm:mt-0 hidden sm:flex">
         <button type="button" @click="generatePDF" class="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">Download</button>
       </div>

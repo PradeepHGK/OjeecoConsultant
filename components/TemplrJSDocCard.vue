@@ -3,7 +3,7 @@
     <div v-for="(card, index) in data" :key="index" class="flex w-full relative text-white overflow-hidden rounded-3xl shadow-lg">
       <div :class="`flex w-full md:flex-col bg-gradient-to-br ${card.bgFrom} ${card.bgTo}`">
         <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8">
-          <h2 class="text-xl font-semibold mb-2 text-black">{{ card.heading }}</h2>
+          <h2 class="text-xl font-semibold mb-2">{{ card.heading }}</h2>
 
           <p :class="`mb-4 ${card.textColor} text-sm hover:text-shadow`">
             {{ card.paragraph }}
