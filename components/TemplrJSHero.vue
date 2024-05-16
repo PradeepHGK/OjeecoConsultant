@@ -44,19 +44,16 @@
 <script setup>
 import { useThemeStore } from '~/stores/theme';
 
-const props = defineProps({
-  api_end_point: {
-    type: String,
-    required: true,
-  },
-});
+// const props = defineProps({
+//   api_end_point: {
+//     type: String,
+//     required: true,
+//   },
+// });
 
-let path = props.api_end_point != undefined ? props.api_end_point : '/configs/hero';
-const result = await fetch(`https://www.senthilsweb.com/configs/hero.json`, {
-  method: 'get',
-});
-const hero = await result.json();
-//console.log('hero=', JSON.stringify(hero));
+// let path = props.api_end_point != undefined ? '/configs/hero' : '/configs/hero';
+const data = await import('~/configs/hero.json');
+const hero = data;
 
 useNuxtApp().$bus.$on('evt_explore', async (args) => {
   document.location.href="/portfolio/healthbuddy"
