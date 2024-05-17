@@ -1,6 +1,6 @@
 <template>
   <p class="flex justify-center font-semibold text-2xl py-10">OUR USP</p>
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 pb-12 px-4">
   
     <div v-for="(card, index) in data" :key="index" class="flex w-full relative text-white overflow-hidden rounded-3xl shadow-lg">
       <div :class="`flex w-full md:flex-col bg-gradient-to-br ${card.bgFrom} ${card.bgTo}`">
@@ -19,6 +19,19 @@
       <div class="absolute bottom-0 left-0 right-0 h-20 hidden sm:block" :style="gradientStyle(card)"></div>
     </div>
   </div>
+  <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8  px-4 pb-6">
+      <div class="w-full max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl">
+       <h2 class="text-xl text-white font-semibold mb-2">CLIENT-CENTRIC APPROACH</h2>
+       <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco prioritizes long-term client relationships, emphasizing personalized client management. Our team is dedicated to understanding each client's unique needs, fostering collaboration, and delivering solutions that meet and exceed expectations.</p>
+       <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+    </div>
+    <div class="w-full max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
+       <h2 class="text-xl text-white font-semibold mb-2">INNOVATION AT THE CORE</h2>
+       <p class="mb-4 text-white text-sm hover:text-shadow">With a commitment to staying at the forefront of technological advancements, Ojeeco integrates innovative solutions into its services. Whether it's software development or lean manufacturing, clients benefit from cutting-edge technologies that drive efficiency and competitiveness.</p>
+       <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+    </div>
+    </div>
+    <p class="px-4 pt-10">By combining global expertise, a comprehensive service spectrum, strategic partnerships, a client-centric approach, and a commitment to innovation, Dytrone Global Limited positions itself as the go-to partner for businesses seeking unparalleled solutions for global success</p>
 </template>
 
 <script setup>

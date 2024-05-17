@@ -4,7 +4,7 @@
         "code": "about-header-nav",
         "href": "/",
         "icon": "icon-park-twotone:home",
-        "name": "Home",
+        "name": "",
         "css_class": null,
         "is_active": false,
         "sort_order": 0,
@@ -18,7 +18,7 @@
     },
     {
         "code": "blogs-header-nav",
-        "href": "/cms/senthilnathan-karuppaiah",
+        "href": "/",
         "icon": "icon-park-twotone:user",
         "name": "HOME",
         "css_class": null,

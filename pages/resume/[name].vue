@@ -1,7 +1,73 @@
 <template>
   <NuxtLayout name="landing">
-     <BlogRecent />
+     <!--<BlogRecent />-->
+      <div class='pb-10 px-4'>
+        <p class="flex justify-center font-semibold text-2xl py-6">OUR SERVICES</p>
+        <div class="md:flex justify-around">
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-8">
+            <h2 class="text-xl text-white font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+          </div>
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl mb-8">
+            <h2 class="text-xl text-white font-semibold mb-2">SALES STRATEGIES</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+          </div>
+           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f97316] px-2 py-10 rounded-xl mb-8">
+            <h2 class="text-xl text-white font-semibold mb-2">LEAN MANUFACTURING</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>
+          </div>
+        </div>
+        <div class="md:flex justify-around">
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl">
+            <h2 class="text-xl text-white font-semibold mb-2">CLIENT ACQUISITION</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco specializes in connecting businesses with their ideal clients. Through targeted strategies, market analysis, and relationship-building, we secure valuable opportunities, facilitating sustainable growth. Our client acquisition services are designed to enhance market presence and establish long-term, mutually beneficial partnerships.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+          </div>
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
+            <h2 class="text-xl text-white font-semibold mb-2">PROJECT MANAGEMENT</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Rely on Ojeeco for seamless project execution. Our skilled project management team ensures deadlines are met, budgets are optimized, and goals are exceeded. From initiation to completion, we navigate the complexities, providing a structured and organized approach that guarantees successful project outcomes.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+          </div>
+           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f97316] px-2 py-10 rounded-xl">
+            <h2 class="text-xl text-white font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco values enduring client relationships. Our dedicated team fosters personalized connections, understanding client needs intimately. Through effective communication and tailored solutions, we build trust and loyalty, ensuring that our clients receive unparalleled support and value throughout their business journey</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>
+          </div>
+        </div>
+      </div>
+      <div class="pb-10 px-4">
+        <p class="flex justify-center font-semibold text-2xl py-10">OUR PROCESS</p>
+        <div class="md:flex justify-around">
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-4">
+            <h2 class="text-xl text-white font-semibold mb-2">IDENTIFYING CUSTOMER NEEDS</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Our journey begins with understanding the unique requirements of our clients, spanning manufacturing, shipping, sourcing of raw materials, product development/customization, and sales.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+          </div>
+          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl mb-4">
+            <h2 class="text-xl text-white font-semibold mb-2">FINDING THE RIGHT SOLUTION</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Armed with a profound understanding of customer needs, we diligently seek the ideal solution that aligns with their goals and aspirations.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+          </div>
+           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f97316] px-2 py-10 rounded-xl mb-4">
+            <h2 class="text-xl text-white font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
+            <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco Consulting LTD facilitates connections with reputable companies in China or India, ensuring that they can efficiently manufacture and supply products to meet the needs of our clients.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>
+          </div>
+        </div>
+      </div>
+
+          
+       
+   
+     
+
+     
+     
      <TemplrJSMarquee api_end_point="/configs/tech-stack" />
+     
   </NuxtLayout>
 </template>
 <script setup>

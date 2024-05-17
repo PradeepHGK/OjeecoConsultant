@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout name="landing">
-    <div class="sm:mx-auto sm:w-full sm:max-w-md py-20 ml-10">
+    <div class="px-6 sm:mx-auto sm:w-full sm:max-w-md py-20">
           <div class="object-center">
             <p class="text-center font-bold text-2xl">SAY HELLO TO US</p>
             <!--Default logo url configurred thru properties will be set but this can be overridden-->
@@ -11,19 +11,19 @@
       
           <div class="py-10">
           <p class="font-semibold py-2">ADDRESS</p>
-          <p>Address Embassy House unit 4 Harrambee Ave,
-          PO BOX 74165 Nairobi Kenya.</p>
+          <p>4901 S. Wadsworth Blvd. Unit 11 Littleton,
+          CO 80123 USA.</p>
           <p class="font-semibold py-2">PHONE</p>
           <p>+245720829302</p>
           <p class="font-semibold py-2">EMAIL</p>
-          <p>dytronelimited@outlook.com</p>
+          <p>ojeecolimited@outlook.com</p>
           </div>
      
   </div>
-  <div class="flex justify-center">
-        <h2 class="text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
-        <a class="inline-flex text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
-      </div>
+  <div class="md:flex justify-center py-20">
+          <h2 class="px-16 text-lg md:text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
+          <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
+        </div>
   </NuxtLayout>
 </template>
 

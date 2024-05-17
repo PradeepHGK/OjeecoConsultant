@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex items-center justify-between">
+  <div class="relative flex items-center justify-between px-16">
     <!-- Logo -->
     <div class="flex-shrink-0">
       <a href="/" class="flex items-center">
