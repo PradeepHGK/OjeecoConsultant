@@ -127,7 +127,7 @@
         "icon": "icon-park-twotone:all-application",
         "name": "Blog",
         "description": "Explore my personal blog for thoughts, experiences, and insights.",
-        "href": "/blog",
+        "href": "/about",
         "is_active": true,
         "css_class": null,
         "sort_order": 1,

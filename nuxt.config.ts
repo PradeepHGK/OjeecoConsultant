@@ -92,7 +92,7 @@ export default defineNuxtConfig({
     redirectOptions: {
       login: '/login',
       callback: '/confirm',
-      exclude: ['/','/signup','/forgotpassword','/cms/*','/blog*','/resume*'],
+      exclude: ['/','/signup','/forgotpassword','/cms/*','/about*','/services*', '/contact'],
       cookieRedirect: false,
     },
   },

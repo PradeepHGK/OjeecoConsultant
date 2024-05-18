@@ -1,22 +1,30 @@
 <template>
   <NuxtLayout name="landing">
-    <div class="px-6 sm:mx-auto sm:w-full sm:max-w-md py-20">
+    <!--<div class="max-w-sm flex flex-col items-start relative z-10 p-12 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl">
+            <div class="flex justify-center items-center w-full mb-4">
+             <img src="public/mission.png" alt="" class="w-16">
+            </div>
+            <h2 class="text-xl text-white font-semibold mb-2">MISSION</h2>
+            <p class="mb-6 text-white text-sm hover:text-shadow">Ojeeco Global is committed to empowering businesses by providing comprehensive consulting services. Our mission is to navigate the complexities of international markets, deliver tailored solutions, and forge strategic partnerships. Through innovation, efficiency, and client-centric approaches, we enable our clients to expand globally, realize their potential, and achieve enduring success.</p>
+            <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+          </div>-->
+    <div class="px-6 sm:mx-auto sm:w-full sm:max-w-md py-20 bg-violet-900">
           <div class="object-center">
-            <p class="text-center font-bold text-2xl">SAY HELLO TO US</p>
+            <p class="text-center text-white font-bold text-2xl">SAY HELLO TO US</p>
             <!--Default logo url configurred thru properties will be set but this can be overridden-->
           </div>
 
-          <p class="mt-6 text-center text-xl font-normal bg-clip-text">
+          <p class="mt-6 text-white text-center text-sm font-normal bg-clip-text">
             We are specialists in Project Funding across the world and will give you the enjoyment of our Rapid Service, Copetitive fees and a high client satisfaction rates.</p>
       
           <div class="py-10">
-          <p class="font-semibold py-2">ADDRESS</p>
-          <p>4901 S. Wadsworth Blvd. Unit 11 Littleton,
+          <p class="font-semibold text-white py-2">ADDRESS</p>
+          <p class="text-gray-500">4901 S. Wadsworth Blvd. Unit 11 Littleton,
           CO 80123 USA.</p>
-          <p class="font-semibold py-2">PHONE</p>
-          <p>+245720829302</p>
-          <p class="font-semibold py-2">EMAIL</p>
-          <p>ojeecolimited@outlook.com</p>
+          <p class="font-semibold text-white py-2">PHONE</p>
+          <p class="text-gray-500">+245720829302</p>
+          <p class="font-semibold text-white py-2">EMAIL</p>
+          <p class="text-gray-500">ojeecolimited@outlook.com</p>
           </div>
      
   </div>
@@ -44,8 +52,11 @@ console.log('On Sign-in page');
 
 
 const credentials = ref({
+  name: '',
   email: '',
-  password: '',
+  subject: '',
+  phone: '',
+  message: ''
 });
 
 const userProfile = ref({});

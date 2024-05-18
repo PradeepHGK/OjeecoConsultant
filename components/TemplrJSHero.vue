@@ -12,7 +12,7 @@
         </h1>
         <p class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-sm lg:text-lg xl:text-lg">{{ hero.description }}</p>
 
-        <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
+        <!--<div class="mt-10 sm:flex sm:justify-center lg:justify-start">
           <div class="hidden md:flex md:items-center md:space-x-6">
             <NuxtLink to="#" @click="useNuxtApp().$bus.$emit(`${hero.button.primary.click_event}`)"
               class="px-5 py-2 text-md ring-2 hover:ring-2 text-white rounded-full transition-all duration-300"
@@ -23,7 +23,7 @@
               :class="[`text-[${useThemeStore().palette('500')}]`, `hover:bg-[${useThemeStore().palette('700')}]`, `ring-[${useThemeStore().palette('500')}]`]">
               {{ hero.button.secondary.text }}</NuxtLink>
           </div>
-        </div>
+        </div>-->
       </div>
       <div
         class="relative mt-12 sm:mx-auto sm:max-w-lg lg:col-span-6 lg:mx-0 lg:mt-0 lg:flex lg:max-w-none lg:items-center">

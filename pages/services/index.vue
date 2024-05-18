@@ -123,7 +123,7 @@ const runtimeConfig = useRuntimeConfig();
 //const name = params.get('name'); // returns 'John'
 //console.log('name=', name);
 //https://res.cloudinary.com/nathansweb/image/upload/v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png
-const data = await $fetch(`${useRuntimeConfig().public.TEMPLRJS_CONFIG_ROOT_PATH}/${useRoute().params.name}.json`, {
+const data = await $fetch(`${useRuntimeConfig().public.TEMPLRJS_CONFIG_ROOT_PATH}/senthilnathan.json`, {
   method: 'get',
 });
 const cloudinaryURL = ref('');

@@ -50,36 +50,59 @@ if (data && _.isArray(data.data)) {
       </template>
       
     </div>-->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-4">
-      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+        <div class="flex justify-center items-center w-full mb-4">
+          <img src="public/sd.png" alt="" class="w-16">
+        </div>
+        <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Harnessing the power of cutting-edge technologies, we craft tailored software solutions to elevate your business operations.</p>
+        <a href="/services" class="text-red-800">Read More</a>
       </div>
-      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">SALES STRATEGIES</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+       <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+         <div class="flex justify-center items-center w-full mb-4">
+        <img src="public/sales.png" alt="" class="w-16">
       </div>
-       <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f97316] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">LEAN MANUFACTURING</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>
+        <h2 class="text-xl text-black font-semibold mb-2">SALES</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Our seasoned professionals excel in driving sales strategies that propel businesses toward unprecedented growth..</p>
+         <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
+         <a href="/services" class="text-red-800">Read More</a>
       </div>
-      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>
+      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+         <div class="flex justify-center items-center w-full mb-4">
+        <img src="public/leanmanagement.png" alt="" class="w-16">
+        </div>
+        <h2 class="text-xl text-black font-semibold mb-2">LEAN MANUFACTURING</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">We optimize manufacturing processes, ensuring efficiency and cost-effectiveness without compromising quality</p>
+        <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
+        <a href="/services" class="text-red-800">Read More</a>
       </div>
-      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">SALES STRATEGIES</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>
+      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+         <div class="flex justify-center items-center w-full mb-4">
+        <img src="public/userengagement.png" alt="" class="w-16">
       </div>
-       <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f97316] px-2 py-10 rounded-xl">
-        <h2 class="text-xl text-white font-semibold mb-2">LEAN MANUFACTURING</h2>
-        <p class="mb-4 text-white text-sm hover:text-shadow">Ojeeco optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
-        <button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>
+        <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
+        <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
+        <a href="/services" class="text-red-800">Read More</a>
+      </div>
+       <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+         <div class="flex justify-center items-center w-full mb-4">
+        <img src="public/projectmanagement.png" alt="" class="w-16">
+        </div>
+        <h2 class="text-xl text-black font-semibold mb-2">PROJECT MANAGEMENT</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Our adept project management team ensures seamless execution, meeting deadlines and exceeding expectations.</p>
+        <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
+        <a href="/services" class="text-red-800">Read More</a>
+      </div>
+      <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+         <div class="flex justify-center items-center w-full mb-4">
+        <img src="public/crm.png" alt="" class="w-16">
+        </div>
+        <h2 class="text-xl text-black font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Our adept project management team ensures seamless execution, meeting deadlines and exceeding expectations.</p>
+        <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
+        <a href="/services" class="text-red-800">Read More</a>
       </div>
     </div>
   </div>
