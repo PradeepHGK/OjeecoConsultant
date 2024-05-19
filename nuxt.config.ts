@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "layout", mode: "out-in" },
   },
-  //ssr: false,
+  ssr: false,
   //sourcemap: false,
   tailwindcss: {
     configPath: "tailwind.config",

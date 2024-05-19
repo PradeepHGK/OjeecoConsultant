@@ -1,0 +1,1 @@
+import{_ as o}from"./DlAUqK2U.js";import{c as a,a as t,aK as s,o as r}from"./DQim9pRB.js";const c={},n={class:"max-w-auto mx-auto"};function l(e,_){return r(),a("div",null,[t("div",n,[s(e.$slots,"default")])])}const i=o(c,[["render",l]]);export{i as default};
