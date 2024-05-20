@@ -123,18 +123,27 @@ const runtimeConfig = useRuntimeConfig();
 //const name = params.get('name'); // returns 'John'
 //console.log('name=', name);
 //https://res.cloudinary.com/nathansweb/image/upload/v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png
-const data = await $fetch(`${useRuntimeConfig().public.TEMPLRJS_CONFIG_ROOT_PATH}/senthilnathan.json`, {
-  method: 'get',
-});
+let data = {};
+try {
+  data = await $fetch(`${runtimeConfig.public.TEMPLRJS_CONFIG_ROOT_PATH}/senthilnathan.json`, {
+    method: 'get',
+  });
+} catch (error) {
+  console.error('Error fetching data:', error);
+};
 const cloudinaryURL = ref('');
-const resume_title = ref(`Resume of ${data.basics.name}`)
+const resume_title = ref(`Resume of ${data?.basics?.name ?? 'Unknown'}`);
+if (data?.basics?.name) {
 const config = useCloudinaryConfig(resume_title.value, useRuntimeConfig().public.CLOUDINARY_BASE_URL, 'v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png')
 cloudinaryURL.value = computeCloudinaryURL(config.value);
   //console.log(`cloudinaryURL = ${cloudinaryURL.value}`)
-
+}
 const generatePDF = async () => {
   const resumeElement = document.querySelector('#resume');
-
+if (!resumeElement) {
+    console.error('Resume element not found');
+    return;
+  }
   // Generate canvas from the content inside the 'resume' div with adjusted scale
   const canvas = await html2canvas(resumeElement, {
     scale: 2, // Adjust this value for optimal balance between size and quality
@@ -189,8 +198,8 @@ const generatePDF = async () => {
 useHead({
   title: resume_title.value, // Combining blog title with website brand
   meta: [
-    { name: 'description', content: `${data.basics.summary}` },
-    { property: 'og:description', content: `${data.basics.summary}` },
+    { name: 'description', content: `${data?.basics?.summary ?? ''}` },
+    { property: 'og:description', content: `${data?.basics?.summary ?? ''}` },
     { property: 'og:title', content: resume_title.value },
     { property: 'og:image', content: cloudinaryURL.value },
     { name: 'twitter:title', content: resume_title.value },
