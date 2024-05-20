@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia';
+import fs from 'fs';
+import path from 'path';
 
 export const useCompanyStore = defineStore('company', {
   state: () => ({
@@ -98,15 +100,18 @@ export const useCompanyStore = defineStore('company', {
     async loadCompanyIfNeeded(config) {
       if (this.loaded) return; // Prevent reloading if already loaded
       try {
-        const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/company.json`, {
-          method: 'GET',
-        });
-        //console.log("response" + response)
-        if (!response.ok) {
-          throw new Error('Failed to load company data');
-        }
-        const item = await response.json();
-
+        // const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/company.json`, {
+        //   method: 'GET',
+        // });
+        // //console.log("response" + response)
+        // if (!response.ok) {
+        //   throw new Error('Failed to load company data');
+        // }
+        // const item = await response.json();
+        
+        const filePath = path.join(process.cwd(), 'public', '/configs', 'company.json');
+        const data = fs.readFileSync(filePath, 'utf8');
+        const item = JSON.parse(data);
         this.reloadCompany(item[0]); // Assuming the JSON directly represents the company object
       } catch (error) {
         console.error('Error loading company data:', error);

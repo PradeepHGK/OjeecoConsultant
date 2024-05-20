@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia';
+import path from 'path';
+import fs from 'fs';
 
 export const usePropertiesStore = defineStore('properties', {
   state: () => ({
@@ -103,13 +105,16 @@ export const usePropertiesStore = defineStore('properties', {
       
       try {
         // Replace the fetch URL with the correct path to your JSON file
-        const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/properties.json`, {
-          method: "GET",
-        });
-        if (!response.ok) {
-          throw new Error("Failed to load properties");
-        }
-        const items = await response.json();
+        // const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/properties.json`, {
+        //   method: "GET",
+        // });
+        // if (!response.ok) {
+        //   throw new Error("Failed to load properties");
+        // }
+        // const items = await response.json();
+        const propertiesPath = path.join(process.cwd(), 'public', '/configs', 'properties.json');
+        const propertiesData = fs.readFileSync(propertiesPath, 'utf8');
+        const items = JSON.parse(propertiesData);
         this.reloadProperties(items);
       } catch (error) {
         console.error("Error loading properties:", error);

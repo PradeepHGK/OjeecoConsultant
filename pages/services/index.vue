@@ -183,7 +183,7 @@ const generatePDF = async () => {
     }
   }
 
-  pdf.save(`resume_of_${useRoute().params.name}_${dayjs().unix()}.pdf`);
+  pdf.save(`resume_of_senthilnathan}_${dayjs().unix()}.pdf`);
 };
 
 useHead({

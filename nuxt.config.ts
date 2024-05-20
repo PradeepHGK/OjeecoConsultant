@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     layoutTransition: { name: "layout", mode: "out-in" },
   },
-  ssr: false,
+  // ssr: false,
   //sourcemap: false,
   tailwindcss: {
     configPath: "tailwind.config",
@@ -92,7 +92,7 @@ export default defineNuxtConfig({
     redirectOptions: {
       login: '/login',
       callback: '/confirm',
-      exclude: ['/','/signup','/forgotpassword','/cms/*','/about*','/services*', '/contact'],
+      exclude: ['/','/signup','/forgotpassword','/cms/*','/about*','/services', '/contact'],
       cookieRedirect: false,
     },
   },

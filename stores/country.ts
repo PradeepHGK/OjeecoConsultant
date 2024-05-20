@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia';
+import fs from 'fs';
+import path from 'path';
 
 export const useCountryStore = defineStore('country', {
   state: () => ({
@@ -32,11 +34,15 @@ export const useCountryStore = defineStore('country', {
       if (this.loaded) return;
 
       try {
-        const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/countries.json`, { method: 'GET' });
-        if (!response.ok) {
-          throw new Error('Failed to load countries');
-        }
-        const items = await response.json();
+        // const response = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/countries.json`, { method: 'GET' });
+        // if (!response.ok) {
+        //   throw new Error('Failed to load countries');
+        // }
+        // const items = await response.json();
+
+        const filePath = path.join(process.cwd(), 'public', '/configs', 'countries.json');
+        const data = fs.readFileSync(filePath, 'utf8');
+        const items = JSON.parse(data);
         this.reloadCountry(items);
       } catch (error) {
         console.error('Error loading countries:', error);

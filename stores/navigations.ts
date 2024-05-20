@@ -1,4 +1,6 @@
 import { defineStore } from "pinia";
+import fs from "fs";
+import path from 'path';
 
 export const useNavigationsStore = defineStore("navigations", {
   state: () => ({
@@ -18,13 +20,22 @@ export const useNavigationsStore = defineStore("navigations", {
       if (this.loaded) return;
 
       try {
-        // Fetching child navigations
-        const childResponse = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/child_nav.json`);
-        const childNavigations = await childResponse.json();
+        // // Fetching child navigations
+        // const childResponse = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/child_nav.json`);
+        // const childNavigations = await childResponse.json();
 
-        // Fetching parent navigations
-        const parentResponse = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/parent_nav.json`);
-        const parentNavigations = await parentResponse.json();
+        // // Fetching parent navigations
+        // const parentResponse = await fetch(`${config.TEMPLRJS_CONFIG_ROOT_PATH}/parent_nav.json`);
+        // const parentNavigations = await parentResponse.json();
+
+        const childNavPath = path.join(process.cwd(), 'public', '/configs', 'child_nav.json');
+        const parentNavPath = path.join(process.cwd(), 'public','configs', 'parent_nav.json');
+        
+        const childNavData = fs.readFileSync(childNavPath, 'utf8');
+        const parentNavData = fs.readFileSync(parentNavPath, 'utf8');
+        
+        const childNavigations = JSON.parse(childNavData);
+        const parentNavigations = JSON.parse(parentNavData);
         
         // Assuming useUnion is a utility function to merge two arrays. Replace this logic based on how you want to merge or handle these navigations.
         this.navigations = [...childNavigations, ...parentNavigations];
