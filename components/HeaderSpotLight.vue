@@ -3,7 +3,7 @@
     <!-- Logo -->
     <div class="flex-shrink-0">
       <a href="/" class="flex items-center">
-        <IconLogo logo_url="/Ojeeco icon.png" />
+        <IconLogo logo_url="/Ojeecoicon.png" />
          <p class="font-bold text-xl ml-3">OJEECO CONSULTING LTD</p>
       </a>
     </div>
