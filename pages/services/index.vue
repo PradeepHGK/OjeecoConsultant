@@ -6,7 +6,7 @@
         <div class="md:flex justify-around md:gap-4">
           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/sd.png" alt="" class="w-16">
+              <img src="/sd.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
@@ -14,7 +14,7 @@
           </div>
           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/sales.png" alt="" class="w-16">
+              <img src="/sales.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">SALES STRATEGIES</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
@@ -22,7 +22,7 @@
           </div>
            <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/leanmanagement.png" alt="" class="w-16">
+              <img src="/leanmanagement.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">LEAN MANUFACTURING</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
@@ -32,7 +32,7 @@
         <div class="md:flex justify-around">
           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/userengagement.png" alt="" class="w-16">
+              <img src="/userengagement.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco specializes in connecting businesses with their ideal clients. Through targeted strategies, market analysis, and relationship-building, we secure valuable opportunities, facilitating sustainable growth. Our client acquisition services are designed to enhance market presence and establish long-term, mutually beneficial partnerships.</p>
@@ -40,7 +40,7 @@
           </div>
           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/projectmanagement.png" alt="" class="w-16">
+              <img src="/projectmanagement.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">PROJECT MANAGEMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Rely on Ojeeco for seamless project execution. Our skilled project management team ensures deadlines are met, budgets are optimized, and goals are exceeded. From initiation to completion, we navigate the complexities, providing a structured and organized approach that guarantees successful project outcomes.</p>
@@ -48,7 +48,7 @@
           </div>
            <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/crm.png" alt="" class="w-16">
+              <img src="/crm.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco values enduring client relationships. Our dedicated team fosters personalized connections, understanding client needs intimately. Through effective communication and tailored solutions, we build trust and loyalty, ensuring that our clients receive unparalleled support and value throughout their business journey</p>
@@ -61,7 +61,7 @@
         <div class="">
           <div class="flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
              <div class="flex justify-center items-center mb-4 mr-6">
-               <img src="public/identifying.png" alt="" class="w-16">
+               <img src="/identifying.png" alt="" class="w-16">
              </div>
              <div>
                <h2 class="text-xl text-black font-semibold mb-2">IDENTIFYING CUSTOMER NEEDS</h2>
@@ -70,7 +70,7 @@
            </div>
           <div class="flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center mb-4 mr-6">
-               <img src="public/solution.png" alt="" class="w-16">
+               <img src="/solution.png" alt="" class="w-16">
              </div>
              <div>
                <h2 class="text-xl text-black font-semibold mb-2">FINDING THE RIGHT SOLUTION</h2>
@@ -79,7 +79,7 @@
            </div>
            <div class="flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center mb-4 mr-6">
-               <img src="public/support.png" alt="" class="w-16">
+               <img src="/support.png" alt="" class="w-16">
              </div>
              <div>
                <h2 class="text-xl text-black font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
@@ -105,7 +105,7 @@
 
 import { useCloudinaryConfig, computeCloudinaryURL } from '~/utils/functions';
 
-
+import DATA from '~/configs/senthilnathan.json'
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import _ from 'lodash';
@@ -125,9 +125,8 @@ const runtimeConfig = useRuntimeConfig();
 //https://res.cloudinary.com/nathansweb/image/upload/v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png
 let data = {};
 try {
-  data = await $fetch(`${runtimeConfig.public.TEMPLRJS_CONFIG_ROOT_PATH}/senthilnathan.json`, {
-    method: 'get',
-  });
+  const fetchedData = DATA
+  data = fetchedData;
 } catch (error) {
   console.error('Error fetching data:', error);
 };

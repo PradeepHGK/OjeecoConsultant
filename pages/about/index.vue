@@ -70,7 +70,7 @@
           <div class="md:flex md:justify-evenly py-10">
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-12 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-4 md:mb-0">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/mission.png" alt="" class="w-16">
+               <img src="/mission.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-white font-semibold mb-2">MISSION</h2>
               <p class="mb-6 text-white text-sm hover:text-shadow">Ojeeco Global is committed to empowering businesses by providing comprehensive consulting services. Our mission is to navigate the complexities of international markets, deliver tailored solutions, and forge strategic partnerships. Through innovation, efficiency, and client-centric approaches, we enable our clients to expand globally, realize their potential, and achieve enduring success.</p>
@@ -78,7 +78,7 @@
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/leadership.png" alt="" class="w-16">
+               <img src="/leadership.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-white font-semibold mb-2">VISION</h2>
               <p class="mb-4 text-white text-sm hover:text-shadow">To be the foremost catalyst for global business success, inspiring innovation and fostering enduring partnerships that transcend borders. Ojeeco Global envisions a world where businesses thrive through seamless integration into the global marketplace, leveraging our expertise and network for sustained growth and transformative impact.</p>
@@ -89,7 +89,7 @@
           <div class="md:flex justify-around md:gap-4">
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/support.png" alt="" class="w-16">
+               <img src="/support.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">Global Expansion Facilitation</h2>
               <p class="mb-4 text-black text-sm hover:text-shadow">Facilitate the seamless expansion of clients into international markets, primarily focusing on China and India. Establish strategic partnerships with key players in diverse industries to enhance global reach.</p>
@@ -97,7 +97,7 @@
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/solution.png" alt="" class="w-16">
+               <img src="/solution.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">Innovation and Technology Leadership</h2>
               <p class="mb-6 text-black text-sm hover:text-shadow">Pioneer innovative solutions in software development, ensuring clients stay ahead in the rapidly evolving technology landscape.Be a thought leader in integrating cutting-edge technologies into business strategies,enhancing efficiency and competitiveness.</p>
@@ -105,7 +105,7 @@
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/client.png" alt="" class="w-16">
+               <img src="/client.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">Client Satisfaction and Long-Term Relationships</h2>
               <p class="mb-4 text-black text-sm hover:text-shadow">Achieve high levels of client satisfaction through personalized service, understanding client needs, and delivering value-driven solutions.Foster long-term relationships with clients, becoming a trusted partner in their growth and success.</p>
@@ -115,7 +115,7 @@
           <div class="md:flex justify-around md:gap-4">
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/innovation.png" alt="" class="w-16">
+               <img src="/innovation.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">Operational Excellence and Lean Practices</h2>
               <p class="mb-4 text-black text-sm hover:text-shadow">Continuously optimize internal operations using lean manufacturing principles to enhance efficiency and reduce costs.Achieve industry-leading standards in project management, ensuring timely and successful execution of client projects.</p>
@@ -123,7 +123,7 @@
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/crm.png" alt="" class="w-16">
+               <img src="/crm.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">Community and Environmental Responsibility</h2>
               <p class="mb-6 text-black text-sm hover:text-shadow">Contribute positively to the communities in which we operate by engaging in socially responsible initiatives.Incorporate environmentally sustainable practices into our operations, aligning with global standards for corporate responsibility.</p>
@@ -131,7 +131,7 @@
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
-               <img src="public/business-partnership.png" alt="" class="w-16">
+               <img src="/business-partnership.png" alt="" class="w-16">
               </div>
               <h2 class="text-xl text-black font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
               <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Consulting Ltd is dedicated to achieving these goals, guided by its vision and mission, to create a lasting impact on the global business landscape.</p>

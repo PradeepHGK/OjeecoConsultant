@@ -53,7 +53,7 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 px-3">
           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
-              <img src="public/sd.png" alt="" class="w-16">
+              <img src="/sd.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Harnessing the power of cutting-edge technologies, we craft tailored software solutions to elevate your business operations.</p>
@@ -61,7 +61,7 @@
           </div>
            <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
-            <img src="public/sales.png" alt="" class="w-16">
+            <img src="/sales.png" alt="" class="w-16">
           </div>
             <h2 class="text-xl text-black font-semibold mb-2">SALES</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Our seasoned professionals excel in driving sales strategies that propel businesses toward unprecedented growth..</p>
@@ -70,7 +70,7 @@
           </div>
           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
-            <img src="public/leanmanagement.png" alt="" class="w-16">
+            <img src="/leanmanagement.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">LEAN MANUFACTURING</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">We optimize manufacturing processes, ensuring efficiency and cost-effectiveness without compromising quality</p>
@@ -79,7 +79,7 @@
           </div>
           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
-            <img src="public/userengagement.png" alt="" class="w-16">
+            <img src="/userengagement.png" alt="" class="w-16">
           </div>
             <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
@@ -88,7 +88,7 @@
           </div>
            <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
-            <img src="public/projectmanagement.png" alt="" class="w-16">
+            <img src="/projectmanagement.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">PROJECT MANAGEMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Our adept project management team ensures seamless execution, meeting deadlines and exceeding expectations.</p>
@@ -97,7 +97,7 @@
           </div>
           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
-            <img src="public/crm.png" alt="" class="w-16">
+            <img src="/crm.png" alt="" class="w-16">
             </div>
             <h2 class="text-xl text-black font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
             <p class="mb-4 text-black text-sm hover:text-shadow">Our adept project management team ensures seamless execution, meeting deadlines and exceeding expectations.</p>
