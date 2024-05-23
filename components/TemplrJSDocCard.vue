@@ -4,7 +4,7 @@
     
       <div v-for="(card, index) in data" :key="index" class="flex w-full relative text-white overflow-hidden rounded-3xl shadow-lg">
         <div :class="`flex w-full md:flex-col bg-gradient-to-br ${card.bgFrom} ${card.bgTo}`">
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8">
+          <div class=" flex flex-col items-start relative z-10 p-6 xl:p-8">
   
             <div class="flex justify-center items-center w-full mb-4">
               <img :src="card.logo" class="w-16">
@@ -25,17 +25,17 @@
         </div>
         <div class="absolute bottom-0 left-0 right-0 h-20 hidden sm:block" :style="gradientStyle(card)"></div>
       </div>
-      <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+      <div class="w-full flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
         <div class="flex justify-center items-center w-full mb-4">
-          <img src="public/client.png" alt="" class="w-16">
+          <img src="/client.png" alt="" class="w-16">
         </div>
          <h2 class="text-xl text-black font-semibold mb-2">CLIENT-CENTRIC APPROACH</h2>
          <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco prioritizes long-term client relationships, emphasizing personalized client management. Our team is dedicated to understanding each client's unique needs, fostering collaboration, and delivering solutions that meet and exceed expectations.</p>
          <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
       </div>
-      <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+      <div class="w-full flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
         <div class="flex justify-center items-center w-full mb-4">
-          <img src="public/innovation.png" alt="" class="w-16">
+          <img src="/innovation.png" alt="" class="w-16">
         </div>
          <h2 class="text-xl text-black font-semibold mb-2">INNOVATION AT THE CORE</h2>
          <p class="mb-4 text-black text-sm hover:text-shadow">With a commitment to staying at the forefront of technological advancements, Ojeeco integrates innovative solutions into its services. Whether it's software development or lean manufacturing, clients benefit from cutting-edge technologies that drive efficiency and competitiveness.</p>

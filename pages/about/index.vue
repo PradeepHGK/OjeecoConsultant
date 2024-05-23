@@ -68,7 +68,7 @@
             <p class="text-sm">Welcome to Ojeeco Consulting Ltd - Your Gateway to Global Opportunities Ojeeco Consulting Ltd, established in 2015, is a distinguished consulting firm specializing in software development, sales, lean manufacturing, client acquisition, project management, and client relationship management. Leveraging extensive experience and a global network, we bridge the gap for companies seeking optimal solutions without maintaining large workforces. Operating at the forefront of technological and economic landscapes, we collaborate with businesses worldwide, particularly in the burgeoning economies of China and India. Our mission is to unlock global opportunities, connect clients with tailored solutions, and facilitate expansion beyond domestic markets. Ojeeco Consulting Ltd stands as a beacon of innovation, commitment, and excellence in the realm of international business consultancy.</p>
           </div>
           <div class="md:flex md:justify-evenly py-10">
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-12 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-4 md:mb-0">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-12 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-4 md:mb-0">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/mission.png" alt="" class="w-16">
               </div>
@@ -76,7 +76,7 @@
               <p class="mb-6 text-white text-sm hover:text-shadow">Ojeeco Global is committed to empowering businesses by providing comprehensive consulting services. Our mission is to navigate the complexities of international markets, deliver tailored solutions, and forge strategic partnerships. Through innovation, efficiency, and client-centric approaches, we enable our clients to expand globally, realize their potential, and achieve enduring success.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
             </div>
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/leadership.png" alt="" class="w-16">
               </div>
@@ -86,8 +86,8 @@
             </div>
           </div>
           <p class="flex justify-center font-semibold text-2xl py-10">GOALS</p>
-          <div class="md:flex justify-around">
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+          <div class="md:flex justify-around md:gap-4">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/support.png" alt="" class="w-16">
               </div>
@@ -95,7 +95,7 @@
               <p class="mb-4 text-black text-sm hover:text-shadow">Facilitate the seamless expansion of clients into international markets, primarily focusing on China and India. Establish strategic partnerships with key players in diverse industries to enhance global reach.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
             </div>
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/solution.png" alt="" class="w-16">
               </div>
@@ -103,7 +103,7 @@
               <p class="mb-6 text-black text-sm hover:text-shadow">Pioneer innovative solutions in software development, ensuring clients stay ahead in the rapidly evolving technology landscape.Be a thought leader in integrating cutting-edge technologies into business strategies,enhancing efficiency and competitiveness.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
             </div>
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/client.png" alt="" class="w-16">
               </div>
@@ -112,8 +112,8 @@
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
             </div>
           </div>
-          <div class="md:flex justify-around">
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+          <div class="md:flex justify-around md:gap-4">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/innovation.png" alt="" class="w-16">
               </div>
@@ -121,7 +121,7 @@
               <p class="mb-4 text-black text-sm hover:text-shadow">Continuously optimize internal operations using lean manufacturing principles to enhance efficiency and reduce costs.Achieve industry-leading standards in project management, ensuring timely and successful execution of client projects.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
             </div>
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/crm.png" alt="" class="w-16">
               </div>
@@ -129,7 +129,7 @@
               <p class="mb-6 text-black text-sm hover:text-shadow">Contribute positively to the communities in which we operate by engaging in socially responsible initiatives.Incorporate environmentally sustainable practices into our operations, aligning with global standards for corporate responsibility.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
             </div>
-            <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
+            <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-4 md:mb-8 shadow-lg">
               <div class="flex justify-center items-center w-full mb-4">
                <img src="public/business-partnership.png" alt="" class="w-16">
               </div>

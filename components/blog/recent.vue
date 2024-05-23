@@ -15,11 +15,11 @@
     </script>
     
     <template>
-      <div class="pb-10 px-5">
+      <div class="pb-10 px-1">
         <div class="px-6 py-6 flex justify-center">
           <div class="flex flex-row items-center space-x-3 py-10 pb-3">
             <Icon name="mdi:star-three-points-outline" size="2em" class="text-black" />
-            <h2 class="text-4xl font-semibold text-black">OUR SERVICES</h2>
+            <h2 class="text-2xl md:text-4xl font-semibold text-black">OUR SERVICES</h2>
           </div>
         </div>
         <!--<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -50,8 +50,8 @@
           </template>
           
         </div>-->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-10">
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 px-3">
+          <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/sd.png" alt="" class="w-16">
             </div>
@@ -59,7 +59,7 @@
             <p class="mb-4 text-black text-sm hover:text-shadow">Harnessing the power of cutting-edge technologies, we craft tailored software solutions to elevate your business operations.</p>
             <a href="/services" class="text-red-800">Read More</a>
           </div>
-           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
             <img src="public/sales.png" alt="" class="w-16">
           </div>
@@ -68,7 +68,7 @@
              <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
              <a href="/services" class="text-red-800">Read More</a>
           </div>
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+          <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
             <img src="public/leanmanagement.png" alt="" class="w-16">
             </div>
@@ -77,7 +77,7 @@
             <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
             <a href="/services" class="text-red-800">Read More</a>
           </div>
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+          <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
             <img src="public/userengagement.png" alt="" class="w-16">
           </div>
@@ -86,7 +86,7 @@
             <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
             <a href="/services" class="text-red-800">Read More</a>
           </div>
-           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+           <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
             <img src="public/projectmanagement.png" alt="" class="w-16">
             </div>
@@ -95,7 +95,7 @@
             <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-orange-600 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">View Documentation</button>-->
             <a href="/services" class="text-red-800">Read More</a>
           </div>
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
+          <div class="w-full max-w-lg flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 py-10 rounded-xl shadow-lg">
              <div class="flex justify-center items-center w-full mb-4">
             <img src="public/crm.png" alt="" class="w-16">
             </div>

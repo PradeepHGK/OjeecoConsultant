@@ -16,7 +16,7 @@ const buttons = useSortBy(useNavigationsStore().navigatioins_by_module('landing-
 const isMobileNavVisible = useState('isMobileNavVisible', () => ref(false));
 </script>
 <template>
-  <header class="fixed sticky top-0 z-10 flex flex-wrap items-center justify-between px-4 sm:px-0 py-5 transition duration-500 h-20" :class="[propertiesStore.megamenu_bg_color ? propertiesStore.megamenu_bg_color : 'bg-white', propertiesStore.layout_width ? propertiesStore.layout_width : 'lg:max-w-8xl']">
+  <header class="fixed sticky top-0 z-10 flex flex-wrap items-center justify-between px-4 sm:px-0 py-5 transition duration-500 h-20" :class="[propertiesStore.megamenu_bg_color ? propertiesStore.megamenu_bg_color : 'bg-white', propertiesStore.layout_width ? propertiesStore.layout_width : 'lg:max-w-7xl']">
     <!-- Logo (Start)-->
     <div class="relative flex flex-grow basis-0 items-center">
       <a href="/">

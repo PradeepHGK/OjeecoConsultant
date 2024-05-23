@@ -3,8 +3,8 @@
      <!--<BlogRecent />-->
       <div class='pb-10 px-4'>
         <p class="flex justify-center font-semibold text-2xl py-6">OUR SERVICES</p>
-        <div class="md:flex justify-around">
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+        <div class="md:flex justify-around md:gap-4">
+          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/sd.png" alt="" class="w-16">
             </div>
@@ -12,7 +12,7 @@
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
             
           </div>
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/sales.png" alt="" class="w-16">
             </div>
@@ -20,7 +20,7 @@
             <p class="mb-4 text-black text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
             
           </div>
-           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/leanmanagement.png" alt="" class="w-16">
             </div>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="md:flex justify-around">
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/userengagement.png" alt="" class="w-16">
             </div>
@@ -38,7 +38,7 @@
             <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco specializes in connecting businesses with their ideal clients. Through targeted strategies, market analysis, and relationship-building, we secure valuable opportunities, facilitating sustainable growth. Our client acquisition services are designed to enhance market presence and establish long-term, mutually beneficial partnerships.</p>
             
           </div>
-          <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/projectmanagement.png" alt="" class="w-16">
             </div>
@@ -46,7 +46,7 @@
             <p class="mb-4 text-black text-sm hover:text-shadow">Rely on Ojeeco for seamless project execution. Our skilled project management team ensures deadlines are met, budgets are optimized, and goals are exceeded. From initiation to completion, we navigate the complexities, providing a structured and organized approach that guarantees successful project outcomes.</p>
             
           </div>
-           <div class="max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
             <div class="flex justify-center items-center w-full mb-4">
               <img src="public/crm.png" alt="" class="w-16">
             </div>
