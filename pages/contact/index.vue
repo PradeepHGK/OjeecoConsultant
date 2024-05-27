@@ -36,7 +36,7 @@
             <p class="text-center text-white font-bold text-2xl">SAY HELLO TO US</p>
             <!--Default logo url configurred thru properties will be set but this can be overridden-->
           </div>
-          <p class="mt-6 text-white text-center text-sm font-normal bg-clip-text">We are specialists in Project Funding across the world and will give you the enjoyment of our Rapid Service, Copetitive fees and a high client satisfaction rates.</p>
+          <p class="mt-6 text-white text-center text-base font-normal bg-clip-text">We are specialists in Project Funding across the world and will give you the enjoyment of our Rapid Service, Copetitive fees and a high client satisfaction rates.</p>
           <div class="py-10">
             <p class="font-semibold text-white py-2">ADDRESS</p>
             <p class="text-gray-400">4901 S. Wadsworth Blvd. Unit 11 Littleton, CO 80123 USA.</p>
