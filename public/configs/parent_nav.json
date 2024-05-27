@@ -87,7 +87,7 @@
         "code": "features-header-nav",
         "href": "/cms/templrjs",
         "icon": "icon-park-twotone:circles-seven",
-        "name": "TemplrJS",
+        "name": "",
         "css_class": null,
         "is_active": false,
         "sort_order": 5,
@@ -96,7 +96,7 @@
         "parent_code": null,
         "iconBackground": null,
         "iconForeground": null,
-        "nav_module_code": "landing-page",
+        "nav_module_code": "",
         "is_action_button": false,
         "is_footer_description": false
     },

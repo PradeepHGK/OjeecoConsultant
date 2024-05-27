@@ -15,14 +15,14 @@
             <!--Default logo url configurred thru properties will be set but this can be overridden-->
           </div>
           <h2 class="mt-6 text-center text-2xl font-bold bg-clip-text text-orange-600">SEND A MESSAGE</h2>
-          <div class="px-6 py-10">
-            <input v-model="credentials.name" autocapitalize="none" autocomplete="none" type="text" placeholder="Name" class="flex-1 focus:ring-lime-600 focus:border-lime-600 block w-full min-w-0 rounded-none sm:text-sm border-gray-300" />
-            <input v-model="credentials.email" autocapitalize="none" autocomplete="none" type="text" placeholder="Email" class="flex-1 focus:ring-lime-600 focus:border-lime-600 block w-full min-w-0 rounded-none sm:text-sm border-gray-300" />
-            <input v-model="credentials.subject" autocapitalize="none" autocomplete="none" type="text" placeholder="Subject" class="flex-1 focus:ring-lime-600 focus:border-lime-600 block w-full min-w-0 rounded-none sm:text-sm border-gray-300" />
-            <input v-model="credentials.phone" autocapitalize="none" autocomplete="none" type="text" placeholder="Phone" class="flex-1 focus:ring-lime-600 focus:border-lime-600 block w-full min-w-0 rounded-none sm:text-sm border-gray-300" />
-            <input v-model="credentials.message" autocapitalize="none" autocomplete="none" type="text" placeholder="Message" class="flex-1 focus:ring-lime-600 focus:border-lime-600 block w-full min-w-0 rounded-none sm:text-sm border-gray-300" />
+          <div class="px-10 sm:px-6 py-10">
+            <input v-model="credentials.name" autocapitalize="none" autocomplete="none" type="text" placeholder="Name" class="w-80 sm:w-96 focus:ring-lime-600 focus:border-lime-600 block min-w-xl rounded-none sm:text-sm border-gray-300" />
+            <input v-model="credentials.email" autocapitalize="none" autocomplete="none" type="text" placeholder="Email" class="w-80 sm:w-96 focus:ring-lime-600 focus:border-lime-600 block min-w-xl rounded-none sm:text-sm border-gray-300" />
+            <input v-model="credentials.subject" autocapitalize="none" autocomplete="none" type="text" placeholder="Subject" class="w-80 sm:w-96 focus:ring-lime-600 focus:border-lime-600 block min-w-xl rounded-none sm:text-sm border-gray-300" />
+            <input v-model="credentials.phone" autocapitalize="none" autocomplete="none" type="text" placeholder="Phone" class="w-80 sm:w-96 focus:ring-lime-600 focus:border-lime-600 block min-w-xl rounded-none sm:text-sm border-gray-300" />
+            <input v-model="credentials.message" autocapitalize="none" autocomplete="none" type="text" placeholder="Message" class="w-80 sm:w-96 focus:ring-lime-600 focus:border-lime-600 block w-22 rounded-none sm:text-sm border-gray-300" />
           </div>
-          <div class="px-6 mb-2">
+          <div class="px-10 sm:px-6 mb-2">
             <button @click="doSignIn" class="bg-primary-900 hover:bg-primary-500 text-white px-4 py-4 mt-3 w-full font-bold">SUBMIT</button>
           </div>
           <div class="px-6 text-center">
