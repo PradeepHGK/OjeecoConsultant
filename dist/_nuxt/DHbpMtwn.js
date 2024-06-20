@@ -1,1 +1,0 @@
-import{a5 as s,z as o,a6 as n,a7 as r}from"./DQim9pRB.js";const i=s(async()=>{let e,a;console.log("Entering auth middleware");const t=o();if(([e,a]=n(()=>t.auth.getUser()),e=await e,a(),e).data.user===null)return console.log("User not logged in"),r("/");console.log("Exiting auth middleware")});export{i as default};
