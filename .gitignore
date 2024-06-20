@@ -26,8 +26,6 @@ history.txt
 .node_modules
 /node_modules
 .nuxt
-.output
-/.output
 /.nuxt
 .env
 /krakend/configs/krakend.json
