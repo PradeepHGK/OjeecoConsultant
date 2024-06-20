@@ -1,111 +1,100 @@
 <template>
   <NuxtLayout name="landing">
-     <!--<BlogRecent />-->
-      <div class='pb-10 px-4'>
-        <p class="flex justify-center font-semibold text-2xl py-6">OUR SERVICES</p>
-        <div class="md:flex justify-around md:gap-4">
-          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/sd.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
-            
+    <!--<BlogRecent />-->
+    <div class="pb-10 px-4">
+      <p class="flex justify-center font-semibold text-2xl py-6">OUR SERVICES</p>
+      <div class="md:flex justify-around md:gap-4">
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/sd.png" alt="" class="w-28" />
           </div>
-          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/sales.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">SALES STRATEGIES</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Elevate your sales game with Ojeeco's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
-            
+          <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
+        </div>
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/sales.png" alt="" class="w-28" />
           </div>
-           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/leanmanagement.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">LEAN MANUFACTURING</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
-            
+          <h2 class="text-xl text-black font-semibold mb-2">SALES STRATEGIES</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Elevate your sales game with Dytrone's proven strategies. Our sales experts employ data-driven approaches, market insights, and tailored methodologies to boost revenue, maximize market penetration, and establish a lasting competitive edge in your industry</p>
+        </div>
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/leanmanagement.png" alt="" class="w-28" />
+          </div>
+          <h2 class="text-xl text-black font-semibold mb-2">LEAN MANUFACTURING</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone optimizes manufacturing processes, implementing lean principles to enhance efficiency and reduce waste. Streamlined workflows and continuous improvement methodologies ensure cost-effectiveness while maintaining high-quality standards, allowing businesses to thrive in a competitive global market.</p>
+        </div>
+      </div>
+      <div class="md:flex justify-around">
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/userengagement.png" alt="" class="w-28" />
+          </div>
+          <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone specializes in connecting businesses with their ideal clients. Through targeted strategies, market analysis, and relationship-building, we secure valuable opportunities, facilitating sustainable growth. Our client acquisition services are designed to enhance market presence and establish long-term, mutually beneficial partnerships.</p>
+        </div>
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/projectmanagement.png" alt="" class="w-28" />
+          </div>
+          <h2 class="text-xl text-black font-semibold mb-2">PROJECT MANAGEMENT</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Rely on Dytrone for seamless project execution. Our skilled project management team ensures deadlines are met, budgets are optimized, and goals are exceeded. From initiation to completion, we navigate the complexities, providing a structured and organized approach that guarantees successful project outcomes.</p>
+        </div>
+        <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center w-full">
+            <img src="/crm.png" alt="" class="w-28" />
+          </div>
+          <h2 class="text-xl text-black font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone values enduring client relationships. Our dedicated team fosters personalized connections, understanding client needs intimately. Through effective communication and tailored solutions, we build trust and loyalty, ensuring that our clients receive unparalleled support and value throughout their business journey</p>
+        </div>
+      </div>
+    </div>
+    <div class="pb-10 px-4">
+      <p class="flex justify-center font-semibold text-2xl py-10">OUR PROCESS</p>
+      <div class="">
+        <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center mr-6">
+            <img src="/identifying.png" alt="" class="w-28" />
+          </div>
+          <div>
+            <h2 class="text-xl text-black font-semibold mb-2">IDENTIFYING CUSTOMER NEEDS</h2>
+            <p class="mb-4 text-black text-sm hover:text-shadow">Our journey begins with understanding the unique requirements of our clients, spanning manufacturing, shipping, sourcing of raw materials, product development/customization, and sales.</p>
           </div>
         </div>
-        <div class="md:flex justify-around">
-          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/userengagement.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco specializes in connecting businesses with their ideal clients. Through targeted strategies, market analysis, and relationship-building, we secure valuable opportunities, facilitating sustainable growth. Our client acquisition services are designed to enhance market presence and establish long-term, mutually beneficial partnerships.</p>
-            
+        <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center mr-6">
+            <img src="/solution.png" alt="" class="w-28" />
           </div>
-          <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/projectmanagement.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">PROJECT MANAGEMENT</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Rely on Ojeeco for seamless project execution. Our skilled project management team ensures deadlines are met, budgets are optimized, and goals are exceeded. From initiation to completion, we navigate the complexities, providing a structured and organized approach that guarantees successful project outcomes.</p>
-            
+          <div>
+            <h2 class="text-xl text-black font-semibold mb-2">FINDING THE RIGHT SOLUTION</h2>
+            <p class="mb-4 text-black text-sm hover:text-shadow">Armed with a profound understanding of customer needs, we diligently seek the ideal solution that aligns with their goals and aspirations.</p>
           </div>
-           <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center w-full">
-              <img src="/crm.png" alt="" class="w-28">
-            </div>
-            <h2 class="text-xl text-black font-semibold mb-2">CLIENT RELATIONSHIP MANAGEMENT</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco values enduring client relationships. Our dedicated team fosters personalized connections, understanding client needs intimately. Through effective communication and tailored solutions, we build trust and loyalty, ensuring that our clients receive unparalleled support and value throughout their business journey</p>
-            
+        </div>
+        <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
+          <div class="flex justify-center items-center mr-6">
+            <img src="/support.png" alt="" class="w-28" />
+          </div>
+          <div>
+            <h2 class="text-xl text-black font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
+            <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited facilitates connections with reputable companies in China or India, ensuring that they can efficiently manufacture and supply products to meet the needs of our clients.</p>
           </div>
         </div>
       </div>
-      <div class="pb-10 px-4">
-        <p class="flex justify-center font-semibold text-2xl py-10">OUR PROCESS</p>
-        <div class="">
-          <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-             <div class="flex justify-center items-center mr-6">
-               <img src="/identifying.png" alt="" class="w-28">
-             </div>
-             <div>
-               <h2 class="text-xl text-black font-semibold mb-2">IDENTIFYING CUSTOMER NEEDS</h2>
-               <p class="mb-4 text-black text-sm hover:text-shadow">Our journey begins with understanding the unique requirements of our clients, spanning manufacturing, shipping, sourcing of raw materials, product development/customization, and sales.</p>
-             </div>
-           </div>
-          <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10  rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center mr-6">
-               <img src="/solution.png" alt="" class="w-28">
-             </div>
-             <div>
-               <h2 class="text-xl text-black font-semibold mb-2">FINDING THE RIGHT SOLUTION</h2>
-               <p class="mb-4 text-black text-sm hover:text-shadow">Armed with a profound understanding of customer needs, we diligently seek the ideal solution that aligns with their goals and aspirations.</p>
-             </div>
-           </div>
-           <div class="block sm:flex items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
-            <div class="flex justify-center items-center mr-6">
-               <img src="/support.png" alt="" class="w-28">
-             </div>
-             <div>
-               <h2 class="text-xl text-black font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
-               <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Consulting LTD facilitates connections with reputable companies in China or India, ensuring that they can efficiently manufacture and supply products to meet the needs of our clients.</p>
-             </div>
-           </div>
-        </div>
-      </div>
-
-          
-       
+    
+      <p class="px-4 pt-10">Embrace a future of growth and innovation with Dytrone Global Limited. Together, let's unlock
+the door to global success and prosperity.</p>
    
-     
+    </div>
+  
 
-     
-     
-     <TemplrJSMarquee api_end_point="/configs/tech-stack" />
-     
+    <TemplrJSMarquee api_end_point="/configs/tech-stack" />
   </NuxtLayout>
 </template>
 <script setup>
-
-
 import { useCloudinaryConfig, computeCloudinaryURL } from '~/utils/functions';
 
-import DATA from '~/configs/senthilnathan.json'
+import DATA from '~/configs/senthilnathan.json';
 import html2canvas from 'html2canvas';
 import { jsPDF } from 'jspdf';
 import _ from 'lodash';
@@ -125,21 +114,21 @@ const runtimeConfig = useRuntimeConfig();
 //https://res.cloudinary.com/nathansweb/image/upload/v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png
 let data = {};
 try {
-  const fetchedData = DATA
+  const fetchedData = DATA;
   data = fetchedData;
 } catch (error) {
   console.error('Error fetching data:', error);
-};
+}
 const cloudinaryURL = ref('');
 const resume_title = ref(`Resume of ${data?.basics?.name ?? 'Unknown'}`);
 if (data?.basics?.name) {
-const config = useCloudinaryConfig(resume_title.value, useRuntimeConfig().public.CLOUDINARY_BASE_URL, 'v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png')
-cloudinaryURL.value = computeCloudinaryURL(config.value);
+  const config = useCloudinaryConfig(resume_title.value, useRuntimeConfig().public.CLOUDINARY_BASE_URL, 'v1713630133/senthilsweb.com/senthilsweb-blog-card-indigo_mn0ikl.png');
+  cloudinaryURL.value = computeCloudinaryURL(config.value);
   //console.log(`cloudinaryURL = ${cloudinaryURL.value}`)
 }
 const generatePDF = async () => {
   const resumeElement = document.querySelector('#resume');
-if (!resumeElement) {
+  if (!resumeElement) {
     console.error('Resume element not found');
     return;
   }

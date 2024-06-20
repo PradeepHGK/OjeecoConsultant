@@ -1,4 +1,6 @@
 <template>
+ <!-- <p class="flex justify-center font-semibold text-2xl py-8">News / Ad messages</p> -->
+ 
     <p class="flex justify-center font-semibold text-2xl py-10">OUR USP</p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-8 pb-12 px-4">
     
@@ -30,7 +32,7 @@
           <img src="/client.png" alt="" class="w-28">
         </div>
          <h2 class="text-xl text-black font-semibold mb-2">CLIENT-CENTRIC APPROACH</h2>
-         <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco prioritizes long-term client relationships, emphasizing personalized client management. Our team is dedicated to understanding each client's unique needs, fostering collaboration, and delivering solutions that meet and exceed expectations.</p>
+         <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone prioritizes long-term client relationships, emphasizing personalized client management. Our team is dedicated to understanding each client's unique needs, fostering collaboration, and delivering solutions that meet and exceed expectations.</p>
          <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
       </div>
       <div class="w-full flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl shadow-lg">
@@ -38,11 +40,11 @@
           <img src="/innovation.png" class="w-28">
         </div>
          <h2 class="text-xl text-black font-semibold mb-2">INNOVATION AT THE CORE</h2>
-         <p class="mb-4 text-black text-sm hover:text-shadow">With a commitment to staying at the forefront of technological advancements, Ojeeco integrates innovative solutions into its services. Whether it's software development or lean manufacturing, clients benefit from cutting-edge technologies that drive efficiency and competitiveness.</p>
+         <p class="mb-4 text-black text-sm hover:text-shadow">With a commitment to staying at the forefront of technological advancements, Dytrone integrates innovative solutions into its services. Whether it's software development or lean manufacturing, clients benefit from cutting-edge technologies that drive efficiency and competitiveness.</p>
          <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
       </div>
     </div>
-      <p class="px-4 pt-10">By combining global expertise, a comprehensive service spectrum, strategic partnerships, a client-centric approach, and a commitment to innovation, Dytrone Global Limited positions itself as the go-to partner for businesses seeking unparalleled solutions for global success</p>
+      <p class="px-4 pt-10">By combining global expertise, a comprehensive service spectrum, strategic partnerships, a client-centric approach, and a commitment to innovation, Dytrone Global Limited positions itself as the go-to partner for businesses seeking unparalleled solutions for global success.</p>
   </template>
   
   <script setup>

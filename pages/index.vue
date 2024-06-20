@@ -20,7 +20,7 @@ const data = [
   {
     heading: "GLOBAL EXPERTISE, LOCAL SOLUTIONS",
     paragraph:
-      "Ojeeco's unparalleled global network and experience uniquely position the company to provide localized solutions with a global perspective. We understand the intricacies of international markets, offering clients the advantage of tailored strategies suited to diverse business environments.",
+      "Dytrone's unparalleled global network and experience uniquely position the company to provide localized solutions with a global perspective. We understand the intricacies of international markets, offering clients the advantage of tailored strategies suited to diverse business environments.",
     textColor: "text-black",
     buttonText: "Explore My Work",
     bgFrom: "bg-gray-100",
@@ -32,7 +32,7 @@ const data = [
   {
     heading: "END-TO-END SERVICE SPECTRUM",
     paragraph:
-      "From software development to lean manufacturing and client acquisition, Ojeeco offers a comprehensive suite of services, ensuring that clients can address multiple facets of their business needs under one roof. This integrated approach streamlines processes, maximizes efficiency, and minimizes the complexities of dealing with multiple service providers.",
+      "From software development to lean manufacturing and client acquisition, Dytrone offers a comprehensive suite of services, ensuring that clients can address multiple facets of their business needs under one roof. This integrated approach streamlines processes, maximizes efficiency, and minimizes the complexities of dealing with multiple service providers.",
     textColor: "text-black",
     buttonText: "Access Resources",
     bgFrom: "bg-gray-100",
@@ -44,7 +44,7 @@ const data = [
   {
     heading: "STRATEGIC PARTNERSHIPS IN EMERGING MARKETS",
     paragraph:
-      "Ojeeco's focus on the rapidly growing economies of China and India sets it apart. The company facilitates strategic partnerships with reputable firms in these regions, enabling clients to tap into lucrative markets and expand their global footprint.",
+      "Dytrone's focus on the rapidly growing economies of China and India sets it apart. The company facilitates strategic partnerships with reputable firms in these regions, enabling clients to tap into lucrative markets and expand their global footprint.",
     textColor: "text-black",
     buttonText: "View Documentation",
     bgFrom: "bg-gray-100",
