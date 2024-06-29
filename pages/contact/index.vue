@@ -41,16 +41,16 @@
             <p class="font-semibold text-white py-2">ADDRESS</p>
             <p class="text-gray-400">4901 S. Wadsworth Blvd. Unit 11 Littleton, CO 80123 USA.</p>
             <p class="font-semibold text-white py-2">PHONE</p>
-            <p class="text-gray-400">+245720829302</p>
+            <p class="text-gray-400">+17207577099</p>
             <p class="font-semibold text-white py-2">EMAIL</p>
-            <p class="text-gray-400">ojeecolimited@outlook.com</p>
+            <p class="text-gray-400">Info@Ojeeco.com</p>
           </div>
         </div>
       </div>
       
       <div class="md:flex justify-center py-20">
         <h2 class="px-16 text-lg md:text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
-        <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
+        <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+17207577099</a>
       </div>
     </NuxtLayout>
   </template>

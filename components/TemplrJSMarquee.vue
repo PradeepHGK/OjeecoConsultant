@@ -3,7 +3,7 @@
     <div class="m-auto max-w-screen-xl">
       <div class="md:flex justify-center py-20">
             <h2 class="px-14 text-lg md:text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
-            <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+245720829302</a>
+            <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+17207577099</a>
           </div>
       
     </div>
