@@ -1,11 +1,25 @@
 <template>
   <main class="mx-auto mt-8 max-w-7xl px-6 lg:mt-16 sm:px-0 lg:max-w-7xl mx-auto">
-    <div class="w-full max-w-4xl mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-8 rounded-xl shadow-lg mb-10">
-      <h2 class="text-lg xl:text-xl text-black font-semibold mb-2">Banner Carousel quotes</h2>
-      <p class="mb-2 text-black text-sm hover:text-shadow">"Empowering Businesses, Enabling Growth: Dytrone Global - Your Catalyst for Global Success."</p>
-      <p class="mb-2 text-black text-sm hover:text-shadow">"Seamless Solutions, Global Connections: Dytrone Global Limited - Where Opportunities Meet Expertise."</p>
-      <p class="mb-2 text-black text-sm hover:text-shadow">"Innovate, Expand, Excel: Dytrone Global - Your Partner in Unleashing Worldwide Business Potential."</p>
-    </div>
+    <!-- <div class="w-full max-w-4xl mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-8 rounded-xl shadow-lg mb-10">
+      <p class="mb-2 text-black text-sm hover:text-shadow">"Empowering Businesses, Enabling Growth: Ojeeco Consulting - Your Catalyst for Global Success."</p>
+      <p class="mb-2 text-black text-sm hover:text-shadow">"Seamless Solutions, Global Connections: Ojeeco Consulting Limited - Where Opportunities Meet Expertise."</p>
+      <p class="mb-2 text-black text-sm hover:text-shadow">"Innovate, Expand, Excel: Ojeeco Consulting - Your Partner in Unleashing Worldwide Business Potential."</p>
+    </div> -->
+
+    <!-- <div class="relative overflow-hidden">
+    <swiper :options="swiperOptions" class="swiper-container">
+      <swiper-slide v-for="(slide, index) in slides" :key="index">
+        <div class="relative w-full h-full">
+          <img :src="slide.image" alt="Banner Image" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 flex items-center justify-center">
+            <blockquote class="bg-black bg-opacity-50 text-white p-4 rounded-lg">
+              <p class="text-xl">{{ slide.quote }}</p>
+            </blockquote>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper>
+  </div> -->
     <div class="lg:grid lg:grid-cols-12 lg:gap-8">
       <div class="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
         <h1>
@@ -42,26 +56,50 @@
         </div>
       </div>
     </div>
-      <div class="w-full max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-6 py-4 rounded-xl shadow-lg mb-10 mt-10">
-      <p class="text-base"><span class="font-semibold mr-1">News / Ad messages</span>Like New Product / ERP release</p>
-    </div>
+      <!-- <div class="w-full max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-6 py-4 rounded-xl shadow-lg mb-10 mt-10"> -->
+      <!-- <p class="text-base"><span class="font-semibold mr-1">News / Ad messages</span>Like New Product / ERP release</p> -->
+    <!-- </div> -->
   </main>
 </template>
+
 <script setup>
-import { useThemeStore } from '~/stores/theme';
-
-// const props = defineProps({
-//   api_end_point: {
-//     type: String,
-//     required: true,
-//   },
-// });
-
-// let path = props.api_end_point != undefined ? '/configs/hero' : '/configs/hero';
 const data = await import('~/configs/hero.json');
 const hero = data;
 
-useNuxtApp().$bus.$on('evt_explore', async (args) => {
-  document.location.href = '/portfolio/healthbuddy';
-});
+// import SwiperCore, { Navigation, Pagination } from 'swiper';
+// import { Swiper, SwiperSlide } from 'swiper/vue';
+// import 'swiper/swiper-bundle.css';
+
+// SwiperCore.use([Navigation, Pagination]);
+
+// export default {
+//   components: {
+//     Swiper,
+//     SwiperSlide
+//   },
+//   data() {
+//     return {
+//       slides: [
+//         { image: '/images/banner1.jpg', quote: 'This is a quote for image 1' },
+//         { image: '/images/banner2.jpg', quote: 'This is a quote for image 2' },
+//         { image: '/images/banner3.jpg', quote: 'This is a quote for image 3' },
+//       ],
+//       swiperOptions: {
+//         loop: true,
+//         autoplay: {
+//           delay: 5000,
+//         },
+//         pagination: { clickable: true },
+//         navigation: true
+//       }
+//     }
+//   }
+// }
 </script>
+
+<style scoped>
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+</style>

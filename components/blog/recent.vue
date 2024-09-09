@@ -80,7 +80,7 @@ if (data && _.isArray(data.data)) {
           <img src="/userengagement.png" alt="" class="w-28" />
         </div>
         <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
-        <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
+        <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Consulting Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
         <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
         <a href="/services" class="text-red-800">Read More</a>
       </div>
@@ -105,7 +105,7 @@ if (data && _.isArray(data.data)) {
     </div>
    
   </div>
-   <div class="w-full max-w-sm md:max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-4 rounded-xl shadow-lg mb-10 mt-10">
+   <!-- <div class="w-full max-w-sm md:max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-4 rounded-xl shadow-lg mb-10 mt-10">
       <p class="flex justify-center text-base">Testimonials (To be provided by the Client)</p>
-    </div>
+    </div> -->
 </template>

@@ -9,7 +9,7 @@
             <img src="/sd.png" alt="" class="w-28" />
           </div>
           <h2 class="text-xl text-black font-semibold mb-2">SOFTWARE DEVELOPMENT</h2>
-          <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
+          <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Consulting excels in crafting innovative software solutions tailored to meet specific business needs. Our expert developers harness the latest technologies, ensuring scalable, efficient, and future-ready applications that drive productivity and enhance overall business performance.</p>
         </div>
         <div class="max-w-lg w-full md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-gray-100 px-2 py-10 rounded-xl mb-8 shadow-lg">
           <div class="flex justify-center items-center w-full">
@@ -77,12 +77,12 @@
           </div>
           <div>
             <h2 class="text-xl text-black font-semibold mb-2">CONNECTING WITH THE RIGHT PARTNERS</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited facilitates connections with reputable companies in China or India, ensuring that they can efficiently manufacture and supply products to meet the needs of our clients.</p>
+            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Consulting Limited facilitates connections with reputable companies in China or India, ensuring that they can efficiently manufacture and supply products to meet the needs of our clients.</p>
           </div>
         </div>
       </div>
     
-      <p class="px-4 pt-10">Embrace a future of growth and innovation with Dytrone Global Limited. Together, let's unlock
+      <p class="px-4 pt-10">Embrace a future of growth and innovation with Ojeeco Consulting Limited. Together, let's unlock
 the door to global success and prosperity.</p>
    
     </div>

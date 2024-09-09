@@ -65,7 +65,7 @@
           <div>
             <p class="flex justify-center font-semibold text-lg pb-2">WE ARE OJEECO CONSULTING LTD</p>
             <p class="flex justify-center font-semibold text-base md:text-2xl pb-4">YOUR GATEWAY TO GLOBAL OPPURTUNITIES</p>
-            <p class="text-sm">Welcome to Dytrone Global Limited - Your Gateway to Global Opportunities Dytrone Global Limited, established in 2015, is a distinguished consulting firm specializing in software development, sales, lean manufacturing, client acquisition, project management, and client relationship management. Leveraging extensive experience and a global network, we bridge the gap for companies seeking optimal solutions without maintaining large workforces. Operating at the forefront of technological and economic landscapes, we collaborate with businesses worldwide, particularly in the burgeoning economies of China and India. Our mission is to unlock global opportunities, connect clients with tailored solutions, and facilitate expansion beyond domestic markets. Dytrone Global Limited stands as a beacon of innovation, commitment, and excellence in the realm of international business consultancy.</p>
+            <p class="text-sm">Welcome to Ojeeco Consulting Limited - Your Gateway to Global Opportunities Ojeeco Consulting Limited, established in 2015, is a distinguished consulting firm specializing in software development, sales, lean manufacturing, client acquisition, project management, and client relationship management. Leveraging extensive experience and a global network, we bridge the gap for companies seeking optimal solutions without maintaining large workforces. Operating at the forefront of technological and economic landscapes, we collaborate with businesses worldwide, particularly in the burgeoning economies of China and India. Our mission is to unlock global opportunities, connect clients with tailored solutions, and facilitate expansion beyond domestic markets. Ojeeco Consulting Limited stands as a beacon of innovation, commitment, and excellence in the realm of international business consultancy.</p>
           </div>
           <div class="md:flex md:justify-evenly py-10">
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-12 xl:p-8 bg-[#6366f1] px-2 py-10 rounded-xl mb-4 md:mb-0">
@@ -73,7 +73,7 @@
                <img src="/mission.png" alt="" class="w-28">
               </div>
               <h2 class="text-xl text-white font-semibold mb-2">MISSION</h2>
-              <p class="mb-6 text-white text-sm hover:text-shadow">Dytrone Global is committed to empowering businesses by providing comprehensive consulting services. Our mission is to navigate the complexities of international markets, deliver tailored solutions, and forge strategic partnerships. Through innovation, efficiency, and client-centric approaches, we enable our clients to expand globally, realize their potential, and achieve enduring success.</p>
+              <p class="mb-6 text-white text-sm hover:text-shadow">Ojeeco Consulting is committed to empowering businesses by providing comprehensive consulting services. Our mission is to navigate the complexities of international markets, deliver tailored solutions, and forge strategic partnerships. Through innovation, efficiency, and client-centric approaches, we enable our clients to expand globally, realize their potential, and achieve enduring success.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-indigo-800 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Explore My Work</button>-->
             </div>
             <div class="w-full max-w-lg md:max-w-sm flex flex-col items-start relative z-10 p-6 xl:p-8 bg-[#f43f5e] px-2 py-10 rounded-xl">
@@ -81,7 +81,7 @@
                <img src="/leadership.png" alt="" class="w-28">
               </div>
               <h2 class="text-xl text-white font-semibold mb-2">VISION</h2>
-              <p class="mb-4 text-white text-sm hover:text-shadow">To be the foremost catalyst for global business success, inspiring innovation and fostering enduring partnerships that transcend borders. Dytrone Global envisions a world where businesses thrive through seamless integration into the global marketplace, leveraging our expertise and network for sustained growth and transformative impact.</p>
+              <p class="mb-4 text-white text-sm hover:text-shadow">To be the foremost catalyst for global business success, inspiring innovation and fostering enduring partnerships that transcend borders. Ojeeco Consulting envisions a world where businesses thrive through seamless integration into the global marketplace, leveraging our expertise and network for sustained growth and transformative impact.</p>
               <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
             </div>
           </div>
@@ -131,12 +131,12 @@
             </div>
           </div>
           <div>
-            <p class="px-4 pt-10">Dytrone Global Limited is dedicated to achieving these goals, guided by its vision and mission, to
+            <p class="px-4 pt-10">Ojeeco Consulting Limited is dedicated to achieving these goals, guided by its vision and mission, to
 create a lasting impact on the global business landscape.</p>
           </div>
-            <div class="w-full max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-4 rounded-xl shadow-lg mb-10 mt-10">
+            <!-- <div class="w-full max-w-lg mx-auto flex flex-col items-center relative z-10 p-4 xl:p-6 bg-gray-100 px-2 py-4 rounded-xl shadow-lg mb-10 mt-10">
       <p class="flex justify-center text-base"><span class="font-semibold mr-1">Team</span>- To be provided by the client</p>
-    </div>
+    </div> -->
           <div class="md:flex justify-center py-20">
             <h2 class="px-14 text-lg md:text-3xl text-zinc-600 font-bold w-full mb-4 md:mb-0 lg:w-6/12">NEED A QUOTE ? CALL US NOW..</h2>
             <a class="px-32 text-lg inline-flex md:text-2xl font-normal text-gable-green whitespace-nowrap items-center hover:text-blurple" href="#">+17207577099</a>
