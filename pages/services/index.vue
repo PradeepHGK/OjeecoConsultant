@@ -184,13 +184,13 @@ const generatePDF = async () => {
 };
 
 useHead({
-  title: resume_title.value, // Combining blog title with website brand
+  title: "Services", // Combining blog title with website brand
   meta: [
     { name: 'description', content: `${data?.basics?.summary ?? ''}` },
     { property: 'og:description', content: `${data?.basics?.summary ?? ''}` },
-    { property: 'og:title', content: resume_title.value },
+    { property: 'og:title', content: "Services" },
     { property: 'og:image', content: cloudinaryURL.value },
-    { name: 'twitter:title', content: resume_title.value },
+    { name: 'twitter:title', content: "Services" },
     { name: 'twitter:image', content: cloudinaryURL.value },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:description', content: resume_title.value },
