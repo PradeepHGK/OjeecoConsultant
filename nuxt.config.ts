@@ -47,7 +47,14 @@ export default defineNuxtConfig({
       SUPABASE_KEY: process.env.SUPABASE_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx6dGloY2pmcGJwa3JjZHR3c3hnIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjcyMjA1NzIsImV4cCI6MTk4Mjc5NjU3Mn0.eNqEj4UODjXnw6DFKKwT4aXGg3drWu3WSOxhD3Y0GcY',
     },
   },
-  modules: ['@nuxt/content', '@tailvue/nuxt', '@nuxtjs/tailwindcss', 'nuxt-icon', 'nuxt-lodash', '@nuxtjs/robots', '@pinia/nuxt', '@nuxtjs/mdc', '@nuxtjs/fontaine', '@nuxtjs/supabase'],
+  modules: ['@nuxt/content', '@tailvue/nuxt', '@nuxtjs/tailwindcss', 'nuxt-icon', 'nuxt-lodash', '@nuxtjs/robots', '@pinia/nuxt', '@nuxtjs/mdc', '@nuxtjs/fontaine', '@nuxtjs/supabase', 'nuxt-swiper'],
+  swiper: {
+    // Swiper options
+    //----------------------
+    // prefix: 'Swiper',
+    // styleLang: 'css',
+    // modules: ['navigation', 'pagination'], // all modules are imported by default
+  },
   mdc: {
     highlight: {
       langs: ['javascript', 'css', 'html', 'sql', 'bash', 'go', 'json', 'yaml', 'properties', 'dockerfile'],

@@ -619,7 +619,7 @@ index.vue pages/about
          <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
       </div>
     </div>
-      <p class="px-4 pt-10">By combining global expertise, a comprehensive service spectrum, strategic partnerships, a client-centric approach, and a commitment to innovation, Dytrone Global Limited positions itself as the go-to partner for businesses seeking unparalleled solutions for global success</p>
+      <p class="px-4 pt-10">By combining global expertise, a comprehensive service spectrum, strategic partnerships, a client-centric approach, and a commitment to innovation, Ojeeco Limited positions itself as the go-to partner for businesses seeking unparalleled solutions for global success</p>
   </template>
   
   <script setup>
@@ -725,7 +725,7 @@ components/blog/recent.vue
             <img src="public/userengagement.png" alt="" class="w-16">
           </div>
             <h2 class="text-xl text-black font-semibold mb-2">CLIENT ACQUISITION</h2>
-            <p class="mb-4 text-black text-sm hover:text-shadow">Dytrone Global Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
+            <p class="mb-4 text-black text-sm hover:text-shadow">Ojeeco Limited excels in connecting businesses with clients, facilitating growth and expansion on a global scale.</p>
             <!--<button class="mt-auto text-white text-shadow hover:bg-opacity-75 transition-colors bg-rose-900 duration-200 rounded-xl font-semibold py-2 px-4 inline-flex">Access Resources</button>-->
             <a href="/services" class="text-red-800">Read More</a>
           </div>
