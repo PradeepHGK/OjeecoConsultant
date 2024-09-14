@@ -84,6 +84,7 @@
     "moment-timezone": "^0.5.34",
     "nuxt-simple-sitemap": "^3.2.6",
     "nuxt-swiper": "^1.2.2",
+    "nvm": "^0.0.4",
     "pinia": "^2.1.7",
     "save": "^2.9.0",
     "shiki": "^1.3.0",
@@ -93,7 +94,8 @@
     "tailwind-colors": "^1.1.0",
     "unimport": "^3.7.1",
     "uuid": "^9.0.0",
-    "vue-codemirror": "^6.1.1"
+    "vue-codemirror": "^6.1.1",
+    "vue3-carousel": "^0.3.4"
   },
   "overrides": {
     "vue": "latest"

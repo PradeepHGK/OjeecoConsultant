@@ -15,10 +15,6 @@
             <p :class="`mb-4 ${card.textColor} text-sm hover:text-shadow`">
             {{ card.paragraph }}
             </p>
-          
-            
-           
-            
             <!--<a :href="card.link" :class="`mt-auto ${card.buttonColor} text-shadow hover:bg-opacity-75 transition-colors duration-200 rounded-xl font-semibold py-2 px-4 inline-flex`">
               {{ card.buttonText }}
             </a>-->

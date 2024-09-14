@@ -1,8 +1,17 @@
 [
-    "https://picsum.photos/1920/1080?random=1",
-    "https://picsum.photos/1920/1080?random=2",
-    "https://picsum.photos/1920/1080?random=3",
-    "https://picsum.photos/1920/1080?random=4",
-    "https://picsum.photos/1920/1080?random=5",
-    "https://picsum.photos/1920/1080?random=6"
+    {
+        "id": 1,
+        "title": "Seamless Solutions, Global Connections: Ojeeco Consulting Limited - Where Opportunities Meet Expertise.",
+        "url": "https://img.freepik.com/free-photo/robot-handshake-human-background-futuristic-digital-age_53876-129770.jpg?t=st=1726302523~exp=1726306123~hmac=477dfaf849f7c069e73a3458b7680a32fbacb14d893fcde41db71f8e26e7a6df&w=1800"
+    },
+    {
+        "id": 2,
+        "title": "Innovate, Expand, Excel: Ojeeco Consulting - Your Partner in Unleashing Worldwide Business Potential.",
+        "url": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061967.jpg?t=st=1726302599~exp=1726306199~hmac=e50a5de8feb91b582b122d1b72efb1c1d955616fad05d7bd9aad7ab140bdfaf3&w=1800"
+    },
+    {
+        "id": 3,
+        "title": "Empowering Businesses, Enabling Growth: Ojeeco Consulting - Your Catalyst for Global Success.",
+        "url": "https://img.freepik.com/free-photo/close-up-man-writing-code-laptop_158595-5169.jpg?t=st=1726302624~exp=1726306224~hmac=34f502abe6fa922b7a3fd7dd243518d58fe8bc078c38ce2d858c4e1e1ef8fe10&w=1800"
+    }
 ]
